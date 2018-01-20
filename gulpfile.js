@@ -124,6 +124,7 @@ var taskWatch = function(){
     gulp.run('build');
     gulp.watch(['./assets/**/*.html'], ['html-stream']);
     gulp.watch(['./assets/**/*.less'],['less-stream']);
+    gulp.watch(['./assets/**/*.css'],['less-stream']);
     gulp.watch(['./assets/**/*.js'],['js-stream']);
 };
 

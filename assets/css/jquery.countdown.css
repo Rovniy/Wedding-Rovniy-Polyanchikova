@@ -3,7 +3,7 @@ ul#example {
     padding: 18px 0px;
     display: block;
     text-align: center;
-    background-color: #26c7d2;
+    background-color: #fff;
     border-radius: 139px;
 }
 
@@ -34,6 +34,7 @@ ul#example {
         ul#example li p {
             margin-bottom: 0px;
             font-weight: 300;
+            color: #000
         }
 
 .timer {

@@ -370,7 +370,7 @@ ul .other-menu-2 {
 }
 .logo {
 	text-align: center;
-	padding: 24px 10px;
+	padding: 24px 5px;
 }
 .logo img {
 	max-width: 100%;
@@ -385,6 +385,12 @@ ul .other-menu-2 {
 }
 .couple-name {
 	margin-bottom: 0px;
+}
+.couple-name-logo {
+	margin: 30px 20px 0;
+}
+.couple-name-logo-mg {
+	margin: 0 20px 0;
 }
 .couple-name h1 {
 	text-transform: capitalize;

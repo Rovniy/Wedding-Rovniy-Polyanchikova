@@ -888,9 +888,9 @@ ul .other-menu-2 {
 	clear: both;
 }
 .timeline > li > .timeline-panel {
-	width: calc(100% - 25px);
-	width: -moz-calc(100% - 25px);
-	width: -webkit-calc(100% - 25px);
+	width: calc(100%);
+	width: -moz-calc(100%);
+	width: -webkit-calc(100%);
 	float: left;
 	background: #ffffff;
 	position: relative;
@@ -1527,9 +1527,9 @@ select {
 	}
 
 	ul.timeline > li > .timeline-panel {
-		width: calc(100% - 65px);
-		width: -moz-calc(100% - 65px);
-		width: -webkit-calc(100% - 65px);
+		width: calc(80%);
+		width: -moz-calc(80%);
+		width: -webkit-calc(80%);
 	}
 
 	ul.timeline > li > .timeline-badge {

@@ -17,6 +17,14 @@ body {
 	color: #000;
 }
 
+@font-face {
+	font-family: 'Decor Normal';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Decor Normal'), local('Decor-Normal Cyrillic'),
+	url(/src/fonts/decor-normal.ttf) format('truetype')
+}
+
 .successalert {
 	color: #3c763d;
 	background-color: #dff0d8;
@@ -407,6 +415,22 @@ ul .other-menu-2 {
 	font-weight: 400 !important;
 	text-transform: uppercase !important;
 }
+.mark-p {
+	background: darkred;
+	border-radius: 100px;
+	color: #fff;
+	padding: 10px;
+}
+.mark-p a {
+	font-weight: 700;
+	color: deepskyblue;
+	text-decoration: none;
+}
+.mark-p a:hover {
+	font-weight: 700;
+	color: dodgerblue;
+	text-decoration: none;
+}
 .navbar-fixed-left {
 	width: 100px;
 	position: fixed !important;
@@ -485,6 +509,13 @@ ul .other-menu-2 {
 }
 .bg-wedding {
 	background: url(/src/images/wedding-back.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.bg-photos {
+	background: url(/src/images/photos-back.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

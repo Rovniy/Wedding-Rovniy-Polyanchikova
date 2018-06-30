@@ -107,7 +107,7 @@
         $(window).load(updateCircles);
 
         $(window).on('redraw', function () {
-            switched = false;
+            var switched = false;
             updateCircles();
         });
         $(window).on('resize', updateCircles);
